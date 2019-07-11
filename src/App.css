@@ -24,3 +24,19 @@ html,
   align-items: center;
   background-color: #f5f5f5;
 }
+
+.color-emphasize {
+  color: #03cf5d;
+}
+
+/* mobile, web 에서만 보이는 요소에 대한 처리 */
+@media(min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
+@media(max-width: 768px) {
+  .web-only {
+    display: none;
+  }
+}

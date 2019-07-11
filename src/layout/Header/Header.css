@@ -5,11 +5,19 @@
     background-color: white;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-@media(min-width: 768px) {
+.app-title {
+    margin-right: auto;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
     .app-header {
-        flex-direction: row;
+        padding: 0.3rem 1rem;
     }
 }
