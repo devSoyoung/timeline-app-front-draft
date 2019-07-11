@@ -1,0 +1,15 @@
+.app-header {
+    padding: 1rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    margin-bottom: 1rem;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 768px) {
+    .app-header {
+        flex-direction: row;
+    }
+}

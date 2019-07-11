@@ -1,0 +1,12 @@
+.section-timeline {
+    display: inline-block;
+    width: 70%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.section-friends {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+}
