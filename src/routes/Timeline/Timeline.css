@@ -1,12 +1,27 @@
+.timeline {
+    display: flex;
+}
+
 .section-timeline {
     display: inline-block;
     width: 70%;
-    background-color: white;
-    margin-right: 10px;
+    margin-right: 20px;
+    /*background-color: white;*/
+    /*padding: 20px;*/
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 0 10px 0 rgba(58,62,49,.05);*/
 }
 
 .section-friends {
     display: inline-block;
+    margin-left: auto;
     width: 30%;
     background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(58,62,49,.05);
+}
+
+@media(min-width: 768px) {
+
 }
